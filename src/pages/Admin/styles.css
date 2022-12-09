@@ -7,6 +7,12 @@
   align-items: center;
   gap: 1rem;
   padding: 10px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    130deg,
+    rgba(0, 213, 255, 0.164) 40%,
+    rgba(255, 255, 255, 1) 42%
+  );
 }
 .empty-users {
   display: flex;

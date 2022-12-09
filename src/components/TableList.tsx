@@ -23,7 +23,7 @@ const TableList = () => {
           <TableCell align="center">{user.email}</TableCell>
           <TableCell align="center">
             <button
-              style={{ backgroundColor: "red" }}
+              style={{ backgroundColor: "red", width: "80px" }}
               onClick={() => dispacth(adminDeleteUser(user.email))}
             >
               <FiUserX color="#ffffff" size={20} />
