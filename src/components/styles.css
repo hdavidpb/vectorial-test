@@ -1,0 +1,52 @@
+.navbar-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+.create-user-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+ul button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.btn-danger {
+  background-color: red;
+}
+
+.input-icon-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 21px;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.262);
+  padding: 10px;
+  gap: 10px;
+}
+.input-icon-container input {
+  flex: 1;
+}
+.create-user-form-container {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 30px;
+}

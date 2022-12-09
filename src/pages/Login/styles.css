@@ -1,0 +1,36 @@
+.login-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.login-form-container {
+  margin: auto;
+  width: 500px;
+  height: 400px;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 21px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.078);
+}
+
+.inputs-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.login-form-container h1 {
+  font-size: 30px;
+}
+
+.login-form-container input {
+  flex: 1;
+}
